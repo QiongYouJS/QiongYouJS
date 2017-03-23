@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="/destination/css/destination.css" />
+
+	<div class="top">
+		<img style="-webkit-user-select: none;max-width: 100%;background-position: 0px 0px, 23px 23px;background-size: 46px 46px;background-color: white;background-image:linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%);" src="http://common1.qyerstatic.com/zworld/m/project/destination/images/topbar_bg.jpg">
+		<h2>目的地</h2>
+		<input type="text" placeholder="搜索你想去的国家" />
+	</div>            
+<div id="main">
+			<ul class="scoll">
+				<li ng-repeat="item in data" ng-click="changedata(item)">{{item.tagname}}</li>
+			</ul>
+			<div class="Main">
+			<div class="place">
+				<h3>热门城市</h3>
+				<ul>
+					<li ng-repeat="item in Data" ng-click="city()" ui-sref="city">
+						<p>{{item.cnname}}</p>
+						<p>{{item.enname}}</p>
+						<a ui-sref="destination.city"><img src="{{item.photo}}" /></a>
+					</li>
+					<li ng-repeat="item in current" ng-click='city()'>
+						<p>{{item.cnname}}</p>
+						<p>{{item.enname}}</p>
+						<a ui-sref="destination.city"><img src="{{item.photo}}" /></a>
+					</li>
+				</ul>
+			</div>
+			<section class="sec">
+				<div ng-repeat="item in surrent" ng-click="city()">
+						<p>{{item.cnname}}</p>
+						<p>{{item.enname}}</p>
+						<a ui-sref="destination.city"><img src="{{item.photo}}" /></a>
+				</div>
+			</section>
+			</div>
+		</div>
+		<div ui-view ></div>

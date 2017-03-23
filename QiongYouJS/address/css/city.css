@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+	position: relative;
+}
+li{
+	list-style: none;
+}
+#head{
+	width: 10rem;
+	height: 1.1rem;
+	background-image: linear-gradient(to right, #50C971, #0FBFA6);
+
+}
+#head img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+#head span{
+    position: absolute;
+    font-size: 0.35rem;
+    left: 90px;
+    font-weight: normal;
+    top: 12px;
+    color:white;
+    background: url(../img/xiao2.png) no-repeat left;
+	padding-left: 20px;
+}
+#head input{
+	width: 7rem;
+	height: 0.6rem;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,.1);
+	border:rgba(0,0,0,.1);
+	margin-top: 8px; 
+	margin-left: 30px;
+}
+#nav{
+	width: 10ren;
+	position: absolute;
+}
+#nav ul{
+	width: 10rem;
+	height: 1.1rem;
+	background-color: #fff;
+	text-align: center;
+	line-height: 1.1rem;
+	border-bottom: 1px solid #eee;
+}
+#nav ul li{
+	float: left;
+	width: 26%;
+	background: url(../img/xiao3.png) no-repeat 80px center;
+}
+#nav ul .sort{
+	width: 21%;
+	border-left: 1px solid #eee;
+	background: url(../img/xiao4.png) no-repeat  10px center;
+}
+#main{
+	width: 10rem;
+	height: 20rem;
+	margin-top: 45px;
+}
+#main #CityData{
+	width: 10rem;
+}
+#main #CityData>li{
+	width: 10rem;
+	height: 2.8rem;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+#main #CityData>li img{
+	width:3rem;
+	float: left;
+	margin: 10px 15px;
+}
+#main #CityData>li>span{
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	font-size: 0.5rem;
+	color: #ff7467;
+}
+#main #CityData>li>span span{
+	font-size: 0.3rem;
+	color:rgba(31,32,35,.4);
+}
+#main #CityData>li ul li{
+	width: 9.2rem;
+	line-height: 24px;
+}
+#main #CityData>li ul .ticket{
+	padding-top: 5px;
+}
+#main #CityData>li ul .ticket span{
+	color: #40c895;
+    padding-right: 10px;
+    margin-right: 6px;
+    border-right: 1px solid #e0e0e0;
+    
+}
+#main #CityData>li ul .ticket .didian{
+		    color: rgba(31,32,35,.6);
+		    border-right: none;
+		    background: url(../img/xiao6.png) no-repeat left center;
+		    padding-left: 15px;
+}
+#main #CityData>li ul .sell{
+	 color: rgba(31,32,35,.4);
+}

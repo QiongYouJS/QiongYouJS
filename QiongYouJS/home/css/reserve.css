@@ -1,0 +1,199 @@
+.header{
+	height: 1.25rem;
+	width: 100%;
+	background-image: linear-gradient(to right, #50C971, #0FBFA6);
+	display: flex;
+}
+.back {
+	width: 1.25rem;
+	height: 1.25rem;	
+}
+.back img {
+	width: 0.9375rem;
+	height: 0.9375rem;
+	margin-top: 0.15625rem;
+}
+.res {
+	margin-left: 0.9375rem;
+	text-align: center;
+	height: 1.25rem;
+	width: 6.375rem;
+	
+}
+.res img {
+	width: 3.5625rem;
+	height: 0.9375rem;
+	margin-top: 0.15625rem;
+}
+.dishini {
+	width: 100%;
+	height: 5.625rem;
+	position: relative;
+}
+.dishini p {
+	position: absolute;
+	left: 0.3125rem;
+	bottom: 0.15625rem;
+	z-index: 999;
+	color: #fff;
+}
+.dishini img{
+	width: 100%;
+	height: 5.625rem;
+}
+.title{
+	padding:0.15625rem 0 0 0.3125rem ;
+    color: rgba(31,32,35,.8);
+    height: 1.6rem;
+   font-size: 0.625rem;   
+}
+.info{
+	height: 1.5625rem;
+	width: 100%;
+	border-bottom: 0.03125rem  solid #cccccc;
+	display: flex;
+	color: rgba(31,32,35,.4);
+}
+.price{
+	height: 1.5625rem;
+	width: 2.1875rem;
+	line-height: 1.5625rem;
+	margin-left: 0.3125rem;
+}
+.price em{
+	color:  #ff7467;
+	font-size: 0.8rem;
+}
+.browse {
+	width: 2.5rem;
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+	margin-left: 2.8125rem;
+}
+.sold{
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+}
+.app{
+	height: 1.3125rem;
+	display: flex;
+}
+.share{
+	background:#ff7467 ;
+	height: 0.65625rem;
+	color: #FFFFFF;
+	font-size: 0.5rem;
+	width: 2.34375rem;
+	text-align: center;
+	border-radius: 0.09375rem;
+	margin: 0.3125rem 0.15625rem 0 0.3125rem;
+}
+.app p{
+	margin-top: 0.3125rem;
+	font-size: 0.4375rem;
+}
+.app span{
+	margin: 0.21875rem 0 0 0.625rem;
+	color: #CCCCCC;
+	font-size: 0.5rem;
+	height: 0.625rem;
+}
+.linek{
+	height: 0.46875rem;
+	background: #eeeeee;
+	width: 100%;
+}
+.link h3{
+	margin: 0.3125rem  0 0 0.3125rem;
+	background: url(../img/3.jpg) no-repeat left center;
+	text-indent: 0.625rem;
+}
+.link h3 span {
+	padding-left:4.59375rem;
+	color: #CCCCCC;
+}
+.link p{
+	margin: 0.1125rem 0 0.3125rem 0.3125rem;
+}
+.time{
+	height: 0.78125rem;
+	background: #fffaf9;
+	color:#ff7467;
+	line-height: 0.78125rem;
+	text-indent: 0.46875rem;
+}
+.lnek{
+	height: 0.9375rem;
+	border-bottom: 0.03125rem solid #EEEEEE;
+	display: block;
+}
+.lnek h3{
+	margin: 0.3125rem;	
+	text-indent: 0.625rem;
+	background: url(../img/4.jpg) no-repeat left center;
+}
+.lnek h3 span{
+	margin-left:3.4375rem;	
+}
+.lun{
+	height: 2.125rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.lun img {
+	margin: 0.3125rem;
+}
+.you{
+	display: flex;
+	height: 2.03125rem;
+	align-items: center;
+}
+.you figure{
+	margin: 0 0.3125rem;
+}
+.you figcaption p{
+	background: url(../img/7.jpg)no-repeat left center;
+	text-indent: 0.3125rem;
+}
+.you figcaption p span{
+	background: url(../img/8.jpg)no-repeat left center;
+	text-indent: 0.3125rem;
+	display: inline-block;
+}
+.you img{
+	margin-left: 1.25rem;
+}
+.bottom{
+	position: fixed;
+	bottom: 0.0625rem;
+	height: 1.5625rem;
+	color: #FFFFFF;
+	width: 100%;
+	background: #737373;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	z-index: 9999;
+}
+.bottom p:first-of-type{
+	background: url(../img/12.jpg)no-repeat left center;
+	text-indent: 0.46875rem;
+	width: 3.125rem;
+}
+.bottom p:nth-of-type(2){
+	background: url(../img/13.jpg)no-repeat left bottom;
+	text-indent: 0.46875rem;
+	width: 3.125rem;
+}
+.bottom p:last-of-type{
+	background:#ff7467;
+	display: block;
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+	width: 3.125rem;
+	font-size: 0.625rem;
+	text-align: center;
+}
+
+

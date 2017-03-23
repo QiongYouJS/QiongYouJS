@@ -1,0 +1,87 @@
+<!doctype html>
+<html ng-app = "qiongYou">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./common/css/reset.css">
+	<link rel="stylesheet" href="./index.css">
+
+	<script src="./libs/angular.js" charset="utf-8"></script>
+    <script src="./libs/angular-ui-router.js" charset="utf-8"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script type="text/javascript" src="./libs/flexible.js"></script>
+	<script type="text/javascript" src="./libs/swiper.js"></script>
+</head>
+<body>
+
+	<div ui-view></div>
+		
+	<nav class="menu">
+		<section>
+			<a ui-sref="home"><img src="home/imgs/1.jpg" />
+			<p>首页</p>
+			</a>
+		</section>
+		<section>
+			<a ui-sref="address"><img src="home/imgs/2.jpg" />
+			<p>首页</p>
+			</a>
+		</section>
+		<section>
+			<a ui-sref="mine"><img src="home/imgs/4.jpg" />
+			<p>首页</p>
+			</a>
+		</section>
+	</nav>
+
+
+</body>
+<script type="text/javascript">
+	var app = angular.module('qiongYou', ['ui.router']);
+
+	//路由
+	app.config(['$stateProvider', '$urlRouterProvider',function ($stateProvider, $urlRouterProvider){
+
+
+		// 配置默认锚点
+    	$urlRouterProvider.when('', 'home');
+
+
+		//配置路由
+		$stateProvider
+		.state('home',{
+			url: '/home',
+			templateUrl:'./home/home.html',
+			controller: 'homeCtrl'
+		})
+		.state('address',{
+			url: '/address',
+			templateUrl:'./address/address.html'
+		})
+		.state('mine',{
+			url: '/mine',
+			templateUrl:'./mine/myload.html'
+		})
+		.state('me',{
+			url: '/me',
+			templateUrl:'./mine/me.html'
+		})
+		.state('reserve',{
+			url: '/reserve',
+			templateUrl:'./home/reserve.html'
+		})
+		//二级路由
+		.state('home.jingxuan',{
+			url: '/jingxuan',
+			templateUrl:'./home/jingxuan.html'
+		})
+		.state('home.mudidi',{
+			url: '/mudidi',
+			templateUrl:'./home/mudidi.html'
+		})
+
+
+	}]);
+</script>
+	<script src="./home/js/home.js" charset="utf-8"></script>
+</html>

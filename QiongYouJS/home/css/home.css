@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*.myHome{
+	width: 180%;
+	position: absolute;
+	display: flex;
+	left: -80%;
+	transition: all 0.5s;
+}
+
+
+
+.left{
+	width:44%;
+	background:#1F2023 ;
+	color: #CCCCCC;
+	height: 28.125rem;
+	overflow-y: scroll;
+}
+.left li{
+	height: 1.25rem;
+	line-height: 1.25rem;
+	text-indent: 0.625rem;
+	border: 0.03125rem solid #000000;
+	color: #FFFFFF;
+	font-size: 0.5rem;
+}
+.left h3{
+	height: 1.25rem;
+	line-height: 1.25rem;
+	text-indent: 2.5rem;
+	color: #FFFFFF;
+}
+
+.header{
+	height: 1.25rem;
+	width: 100%;
+	background-image: linear-gradient(to right, #50C971, #0FBFA6);
+	display: flex;
+}*/
+
+
+.swiper-container{
+	width: 100%;
+	height: 5.013333rem;
+}
+.swiper-container img{
+	width: 100%;
+	height: 5.013333rem;
+}
+/*#headerOne p{
+	width: 7.92rem;
+	height: 0.8rem;
+	background-color: gray;
+	color: #fff;
+	text-align: center;
+	line-height: 7.92rem;
+}*/
+#center ul{
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+}
+#center li{
+	width: 25%;
+	float: left;
+	margin-bottom:0.4rem;
+	text-align: center;
+}	
+#center{
+	width: 10.0rem;
+	height: 4.933333rem;
+	margin-top: 0.4rem;
+}
+#center p{
+	color: #646464;
+	font-size: 0.373333rem;
+}
+#center img{
+	width: 1.173333rem;
+	height: 1.173333rem;
+}
+#centerOne{
+	width: 10.0rem;
+	height: 2.186667rem;
+	border-top: 0.4rem solid #f5f5f5;
+}
+#centerOne ul{
+	margin-left: 0.16rem;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+}
+#centerOne li{
+	width: 25%;
+	height: 1.093333rem; 
+	line-height: 1.093333rem; 
+}
+#centerOne img{
+	width: 0.453333rem;
+	height: 0.453333rem;
+}
+#bottom .bottomOne{
+	text-align: center;
+	height: 1.386667rem;
+	line-height: 1.386667rem;
+	border-top: 0.4rem solid #f5f5f5;
+	color: #444444;
+}
+#bottom .bottomTwo li{
+	width: 50%;
+	height: 5.36rem;
+}
+#bottom .bottomTwo li a{
+	width: 4.4rem;
+	height: 4.826667rem;
+}
+#bottom .bottomTwo li img{
+	width: 4.4rem;
+	height: 2.933333rem;
+}
+#bottom .bottomTwo li img:nth-of-type(odd){
+	margin-left: 0.4rem;
+}
+.bottomTwo h3{
+	color: #444444;
+	margin-left: 0.32rem;
+}
+.price em{
+	color: red;
+	margin-left: 0.32rem;
+}
+#bottom ul{
+	margin-right: 0.4rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+#foot{
+	width: 100%;
+	height: 3.2rem;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+#foot .footOne{
+	line-height: 1.6rem;
+	text-align: center;
+	color: #9ea3ab;
+}
+#foot .footTwo a{
+	color: #9ea3ab;
+}
+
+
+
+
+
+
+
+
+
+
